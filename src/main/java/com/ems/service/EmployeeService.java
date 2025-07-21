@@ -9,4 +9,10 @@ public interface EmployeeService {
 	public EmployeeDto createEmploye (EmployeeDto employeeDto);
 
 	public List<EmployeeDto> findAllEmployees();
+
+	public String deleteEmployeebyId(long empId);
+
+	public EmployeeDto findByEmpId(long empId);
+
+	public EmployeeDto updateEmployeeDetails(EmployeeDto employeeDto);
 }
